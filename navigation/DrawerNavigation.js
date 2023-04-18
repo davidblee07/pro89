@@ -32,6 +32,7 @@ render(){
     inactiveTintColor:this.state.light_theme? 'black': "white", itemStyle:{
       marginVertical:5
     }}} drawerContent={(props)=><CustomSidebarMenu {...props}/>} >
+
       <Drawer.Screen
         name="Tela Inicial"
         component={StackNavigator}
